@@ -32,6 +32,17 @@ h1 {
     background-color: white;
 }
 
+@media (max-width: 380px){
+
+    .drum{
+        width: 130px;
+        height: 130px;
+        margin: 8px;
+        font-size: 3rem;
+    }
+
+}
+
 .pressed{
     box-shadow: 0 3px 4px 0 #dbedf3;
     opacity: 0.5;
